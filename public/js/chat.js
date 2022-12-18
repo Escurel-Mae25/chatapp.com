@@ -1,7 +1,7 @@
 var socket = io();
 
 function scrollToBottom () {
-  // Selector
+  // Selectors
   var messages = jQuery('#messages');
   var newMessage = messages.children('li:last-child')
   // Heights
